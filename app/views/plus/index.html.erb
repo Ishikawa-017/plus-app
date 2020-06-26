@@ -1,0 +1,7 @@
+<h1>足し算アプリ</h1>
+<%= form_tag("/calc") do %>
+<%= text_field :calc, :one %>
++
+<%= text_field :calc, :two %>
+<%=submit_tag"計算", class:"btn btn-success"%>
+<% end %>
